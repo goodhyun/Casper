@@ -52,9 +52,9 @@ production stylesheet in assets/built/screen.css
      */
 
     /* Fonts */
-    --font-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    --font-serif: Georgia, Times, serif;
-    --font-mono: Menlo, Courier, monospace;
+    --font-sans-serif: 'Reem Kufi', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-serif: 'Libre Caslon Text', Georgia, Times, serif;
+    --font-mono: Menlo, Courier, monospace; 
 
 }
 
@@ -91,7 +91,7 @@ production stylesheet in assets/built/screen.css
 
 .site-header {
     position: relative;
-    color: #fff;
+    /* color: #fff; */
     background: var(--ghost-accent-color);
 }
 
@@ -157,7 +157,7 @@ production stylesheet in assets/built/screen.css
     padding: 18vmin 4vmin;
     font-size: 2.5rem;
     font-weight: 400;
-    color: #fff;
+    /* color: #fff; */
     background: var(--ghost-accent-color);
 }
 
@@ -174,7 +174,7 @@ production stylesheet in assets/built/screen.css
     padding: 1vmin 4vmin;
     font-size: 1.6rem;
     line-height: 1.3em;
-    color: #fff;
+    /* color: #fff; */
     background: var(--ghost-accent-color);
 }
 
@@ -207,9 +207,10 @@ production stylesheet in assets/built/screen.css
     display: block;
     padding: 10px 0;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.2em;
     letter-spacing: -0.02em;
+    font-family: 'Forum';
 }
 
 .gh-head-logo img {
@@ -294,7 +295,7 @@ production stylesheet in assets/built/screen.css
 .gh-social svg {
     height: 22px;
     width: 22px;
-    fill: #fff;
+    /* fill: #fff; */
 }
 
 .gh-social-facebook svg {
@@ -1405,7 +1406,7 @@ iframe.instagram-media + script + :not([id]) {
     position: relative;
     margin-bottom: -40px;
     padding: 9vmin 4vmin 10vmin;
-    color: #fff;
+    /* color: #fff; */
     text-align: center;
     background: var(--color-darkgrey);
 }
@@ -1441,7 +1442,7 @@ iframe.instagram-media + script + :not([id]) {
     padding: 5px 5px 5px 15px;
     font-size: 1.8rem;
     color: var(--color-midgrey);
-    background: #fff;
+    /* background: #fff; */
     border-radius: 8px;
 }
 
@@ -1452,7 +1453,7 @@ iframe.instagram-media + script + :not([id]) {
 .footer-cta-button span {
     display: inline-block;
     padding: 10px 15px;
-    color: #fff;
+    /* color: #fff; */
     font-weight: 500;
     background: var(--ghost-accent-color);
     border-radius: 5px;
@@ -1477,7 +1478,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .read-more .post-card-title {
-    color: #fff;
+    /* color: #fff; */
     opacity: 0.8;
 }
 
@@ -1486,7 +1487,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .read-more .post-card-byline-content a {
-    color: #fff;
+    /* color: #fff; */
 }
 
 
@@ -1690,7 +1691,7 @@ iframe.instagram-media + script + :not([id]) {
     position: relative;
     margin: 40px 0 0 0;
     padding: 40px 4vmin 140px;
-    color: #fff;
+    /* color: #fff; */
     background: color-mod(var(--color-darkgrey) l(-5%));
 }
 
@@ -1703,7 +1704,7 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 .site-footer .copyright a {
-    color: #fff;
+    /* color: #fff; */
     letter-spacing: -0.015em;
     font-weight: 500;
 }
@@ -1760,7 +1761,7 @@ iframe.instagram-media + script + :not([id]) {
     }
     .site-footer .copyright,
     .site-footer .copyright a {
-        color: #fff;
+        /* color: #fff; */
         font-size: 1.5rem;
     }
 }
@@ -1803,7 +1804,7 @@ html.dark-mode .post-card-byline-content a {
 }
 
 html.dark-mode .post-card-byline-content a:hover {
-    color: #fff;
+    /* color: #fff; */
 }
 
 html.dark-mode .post-card-image {
@@ -1843,7 +1844,7 @@ html.dark-mode .article-byline-meta h4 a {
 }
 
 html.dark-mode .article-byline-meta h4 a:hover {
-    color: #fff;
+    /* color: #fff; */
 }
 
 html.dark-mode .no-image .author-social-link a {
@@ -1865,19 +1866,19 @@ html.dark-mode .gh-content :not(pre) > code {
 }
 
 html.dark-mode .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button) {
-    color: #fff;
+    /* color: #fff; */
 }
 
 html.dark-mode .gh-content strong {
-    color: #fff;
+    /* color: #fff; */
 }
 
 html.dark-mode .gh-content em {
-    color: #fff;
+    /* color: #fff; */
 }
 
 html.dark-mode .gh-content code {
-    color: #fff;
+    /* color: #fff; */
     background: #000;
 }
 
@@ -1931,7 +1932,7 @@ html.dark-mode .kg-header-card.kg-style-light {
 
 html.dark-mode .kg-header-card h2.kg-header-card-header,
 html.dark-mode .kg-header-card h3.kg-header-card-subheader {
-    color: #fff;
+    /* color: #fff; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1958,7 +1959,7 @@ html.dark-mode .kg-header-card h3.kg-header-card-subheader {
     }
 
     html.auto-color .post-card-byline-content a:hover {
-        color: #fff;
+        /* color: #fff; */
     }
 
     html.auto-color .post-card-image {
@@ -1998,7 +1999,7 @@ html.dark-mode .kg-header-card h3.kg-header-card-subheader {
     }
 
     html.auto-color .article-byline-meta h4 a:hover {
-        color: #fff;
+        /* color: #fff; */
     }
 
     html.auto-color .no-image .author-social-link a {
@@ -2020,15 +2021,15 @@ html.dark-mode .kg-header-card h3.kg-header-card-subheader {
     }
 
     html.auto-color .gh-content a:not(.kg-btn):not(.kg-nft-card-container):not(.kg-product-card-button):not(.kg-header-card-button) {
-        color: #fff;
+        /* color: #fff; */
     }
 
     html.auto-color .gh-content strong {
-        color: #fff;
+        /* color: #fff; */
     }
 
     html.auto-color .gh-content em {
-        color: #fff;
+        /* color: #fff; */
     }
 
     html.auto-color .gh-content code {
@@ -2086,7 +2087,7 @@ html.dark-mode .kg-header-card h3.kg-header-card-subheader {
 
     html.auto-color .kg-header-card h2.kg-header-card-header,
     html.auto-color .kg-header-card h3.kg-header-card-subheader {
-        color: #fff;
+        /* color: #fff; */
     }
 }
 

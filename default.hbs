@@ -17,7 +17,9 @@
             --button-text-color: {{#match @custom.header_button_text_color "Light"}}#fff{{else}}var(--color-darkgrey){{/match}};
         }
     </style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Libre+Caslon+Text&family=Reem+Kufi&display=swap" rel="stylesheet">
     {{!-- Theme assets - use the {asset} helper to reference styles & scripts,
     this will take care of caching and cache-busting automatically --}}
     <link rel="stylesheet" type="text/css" href="{{asset "built/screen.css"}}" />
