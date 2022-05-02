@@ -158,7 +158,7 @@ production stylesheet in assets/built/screen.css
     font-size: 2.5rem;
     font-weight: 400;
     /* color: #fff; */
-    background: var(--ghost-accent-color);
+    /* background: var(--ghost-accent-color); */
 }
 
 .site-header-content.large {
@@ -175,7 +175,7 @@ production stylesheet in assets/built/screen.css
     font-size: 1.6rem;
     line-height: 1.3em;
     /* color: #fff; */
-    background: var(--ghost-accent-color);
+    /* background: var(--ghost-accent-color); */
 }
 
 .gh-head a {
