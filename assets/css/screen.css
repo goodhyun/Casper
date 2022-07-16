@@ -200,8 +200,6 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
     font-weight: 400;
     /* color: #fff; */
     /* background: var(--ghost-accent-color); */
-<<<<<<< HEAD
-=======
 }
 
 .has-cover :is(.site-logo, .site-title) + .site-description {
@@ -210,7 +208,6 @@ body:not(.has-cover) .site-header-content:not(.left-aligned) {
 
 .has-cover .site-header-content.left-aligned :is(.site-logo, .site-title) + .site-description {
     font-size: 2.2rem;
->>>>>>> temp
 }
 
 @media (max-width: 767px) {
